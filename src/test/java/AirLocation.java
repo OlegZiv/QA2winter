@@ -1,4 +1,4 @@
-public class Air {
+public class AirLocation {
     //-------------------ATTRIBUTES----------------
     private  double density;
     private double saturation;
