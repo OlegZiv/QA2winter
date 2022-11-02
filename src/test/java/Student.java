@@ -1,9 +1,12 @@
 public class Student {
+    //--------------------------ATTRIBUTES---------------------
     private String firsName;
     private String lastName;
     private String email;
     private String phone;
 
+
+    //-------------------------CONSTRUCTORS--------------------
     public Student() {
 
     }
@@ -13,6 +16,8 @@ public class Student {
         this.lastName = lastName;
         this.email = email;
         this.phone = phone;
+
+        //-----------------GETTERS / SETTERS------------------------------------
     }
 
 
@@ -46,5 +51,10 @@ public class Student {
 
     public void setPhone(String phone) {
         this.phone = phone;
+    }
+    //---------------CUSTOM METHODS------------------------------------
+
+    public String getFullName(){
+        return firsName + " " + lastName;
     }
 }
