@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test;
 
-public class PracticeWork {
+public class HomePracticeWorkCandle {
     @Test
     public void workingWithCandle() {
         Candle firstCandle = new Candle();
