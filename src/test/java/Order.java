@@ -1,4 +1,4 @@
-import java.math.BigDecimal;
+
 
 public class Order {
     //--------------------------ATTRIBUTES------------------------
@@ -9,6 +9,15 @@ public class Order {
   private double width;
   private double height;
   private String address;
+  private boolean deliveryRequested;
+
+    public boolean isDeliveryRequested() {
+        return deliveryRequested;
+    }
+
+    public void setDeliveryRequested(boolean deliveryRequested) {
+        this.deliveryRequested = deliveryRequested;
+    }
 
     public double getTotalPrice() {
         return totalPrice;
